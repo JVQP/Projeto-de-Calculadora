@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+
+  background-color: orange;
+
+}
+
+.cabeçalho {
+  margin: auto;
+  background-color: black;
+  display: flex;
+  color: white;
+  width: 200px;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.calculadora {
+  width: 400px;
+  height: 500px;
+  background-color: gray;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.igual {
+  display: flex;
+  width: 254px;
+  font-size: 30px;
+  background-color: orange;
+  text-align: center;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+
+.botão {
+
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+
+}
+
+input {
+
+  text-align: right;
+
+}
+
+#tela {
+
+  height: 100px;
+  width: 300px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+
+}
